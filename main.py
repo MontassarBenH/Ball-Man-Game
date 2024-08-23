@@ -35,7 +35,7 @@ ghost_colors = [RED, (255, 192, 203), (0, 255, 255), (173, 216, 230)]  # Red, Pi
 dot_radius = 5
 dots = []
 
-# Score
+# Score current game
 score = 0
 font = pygame.font.Font(None, 36)
 
