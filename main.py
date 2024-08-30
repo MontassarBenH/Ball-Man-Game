@@ -154,7 +154,7 @@ def draw_pacman(x, y, angle, mouth_angle):
     mouth_bottom = (x + pacman_radius * math.cos(math.radians(bottom_angle)),
                     y - pacman_radius * math.sin(math.radians(bottom_angle)))
 
-    # Draw the mouth (or rather, erase part of the circle)
+    # Draw the mouth
     pygame.draw.polygon(screen, BLACK, [mouth_left, mouth_top, mouth_right, mouth_bottom])
 
 def draw_ghost(x, y, color):
